@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>PageGenieCraft AI</title>
+
+    <link
+        rel="stylesheet"
+        href="popup.css"
+    >
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>PageGenieCraft</h1>
+
+        <p class="subtitle">
+            Turn this page into anything.
+        </p>
+
+        <label>
+            What should I create?
+        </label>
+
+        <select id="outputType">
+
+            <option value="word">
+                Word Document
+            </option>
+
+            <option value="excel">
+                Excel Spreadsheet
+            </option>
+
+            <option value="ppt">
+                PowerPoint
+            </option>
+
+            <option value="pdf">
+                PDF
+            </option>
+
+            <option value="image">
+                Image
+            </option>
+
+        </select>
+
+        <textarea
+            id="request"
+            placeholder="Example: Create a professional summary of this page"
+        ></textarea>
+
+        <button id="generate">
+            ✨ Generate
+        </button>
+
+        <div id="status"></div>
+
+        <button
+			id="download"
+			type="button"
+			style="display:none"
+		>
+			⬇ Download file
+		</button>
+
+    </div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>

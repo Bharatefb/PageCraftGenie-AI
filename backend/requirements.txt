@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+python-docx
+openpyxl
+python-pptx
+reportlab
+Pillow
+matplotlib

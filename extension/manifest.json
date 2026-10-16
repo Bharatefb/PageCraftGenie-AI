@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "PageGenieCraft AI",
+  "version": "0.1.0",
+  "description": "Turn webpages into Word, Excel, PowerPoint, PDF and images using local AI.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "downloads",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
